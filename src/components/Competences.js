@@ -48,8 +48,6 @@ const Competences = () => {
               bgleft: '#5b5b5b',
               bgright: '#0f80c0',
             }}
-
-            //<Badge backgroundColor={["#5b5b5b", "#4cc61f"]} data={["react", "v1.0.0"]} />}
           />
         </Grid>
         <Grid item xs>
