@@ -1,14 +1,12 @@
-import React from 'react'
+import React from 'react';
 import { Card,
          CardActionArea,
          CardMedia,
          CardContent,
          Typography,
          CardActions,
-         Button }     from '@material-ui/core'
-import { makeStyles } from '@material-ui/styles'
-import Badge from "react-shields-badge";
-import "react-shields-badge/dist/react-shields-badge.css";
+         Button }     from '@material-ui/core';
+import { makeStyles } from '@material-ui/styles';
 import PropTypes from 'prop-types';
 
 const useStyles = makeStyles(theme => ({
@@ -20,12 +18,12 @@ const useStyles = makeStyles(theme => ({
     height: 140,
   },
   title: {
-    color: theme.palette.primary.main
-  }
-}))
+    color: theme.palette.primary.main,
+  },
+}));
 
-const Item = ({ image, title, link, content, badge }) => {
-  const classes = useStyles()
+const Item = ({ image, title, link, content }) => {
+  const classes = useStyles();
 
   return (
     <Card className={classes.root}>
@@ -43,7 +41,6 @@ const Item = ({ image, title, link, content, badge }) => {
           <Typography variant="body2" color="textSecondary" component="p">
             {content}
           </Typography>
-          {badge && <Badge data={[badge.name, badge.version]} backgroundColor={[badge.bgleft, badge.bgright]} />}
         </CardContent>
       </CardActionArea>
       <CardActions>
@@ -53,8 +50,8 @@ const Item = ({ image, title, link, content, badge }) => {
         </Button>
       </CardActions>
     </Card>
-  )
-}
+  );
+};
 
 Item.defaultProps = {
   title: 'Wow',
@@ -67,13 +64,6 @@ Item.propTypes = {
   content: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
-
-  badge: PropTypes.shape({
-    name: PropTypes.string,
-    version: PropTypes.string,
-    bgleft: PropTypes.string,
-    bgright: PropTypes.string,
-  }),
 };
 
-export default Item
+export default Item;

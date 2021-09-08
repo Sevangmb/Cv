@@ -29,12 +29,6 @@ const Competences = () => {
             title="Gestion "
             content="Formation, dépannage, support, maj et migration des logiciels de gestions, et comptabilité Sage, Codial et EBP."
             image="https://media.istockphoto.com/photos/double-explosure-with-businesss-charts-of-graph-and-rows-of-coins-for-picture-id1051617040"
-            badge={{
-              name: 'Sage',
-              version: 'v1.0.0',
-              bgleft: '#5b5b5b',
-              bgright: '#4cc61f',
-            }}
           />
         </Grid>
         <Grid item xs>
@@ -42,12 +36,6 @@ const Competences = () => {
             title="Commerce "
             content="Gestion de portefeuille clients, suivi de commandes fournisseurs/clients, devis, suivi des litiges/SAV, gestion des réceptions/livraisons et de stock. "
             image="https://media.istockphoto.com/photos/glad-to-work-with-you-picture-id951514270"
-            badge={{
-              name: 'Gestion',
-              version: 'v1.0.0',
-              bgleft: '#5b5b5b',
-              bgright: '#0f80c0',
-            }}
           />
         </Grid>
         <Grid item xs>
@@ -62,12 +50,6 @@ const Competences = () => {
             title="Informatique"
             content="Windows, MacOS, Linux. MsOffice. Serveurs. SQL, PHP, CSS. Adobe."
             image="https://as1.ftcdn.net/jpg/02/25/56/76/500_F_225567663_gPfQuBNATBPkZO8KEGl256xPqURL6cbd.jpg"
-            badge={{
-              name: 'Debian',
-              version: 'v1.0.0',
-              bgleft: '#5b5b5b',
-              bgright: '#4cc61f',
-            }}
           />
         </Grid>
         <Grid item xs>
@@ -75,12 +57,6 @@ const Competences = () => {
             title="World of warcraft"
             content="Chasseur lvl 120. Donjon, raid. Metiers : cuisine, peche travail du cuir et depessage au max !"
             image="https://as1.ftcdn.net/jpg/02/97/41/58/500_F_297415844_RQplmtTHNTNBJC8Mo2NbIfmUo9J7B1FT.jpg"
-            badge={{
-              name: 'Chasseur',
-              version: 'v120',
-              bgleft: '#5b5b5b',
-              bgright: '#4cc61f',
-            }}
           />
         </Grid>
       </Grid>
