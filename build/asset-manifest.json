@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/cv/src/static/js/main.0def39d0.chunk.js",
+    "main.js.map": "/cv/src/static/js/main.0def39d0.chunk.js.map",
+    "runtime-main.js": "/cv/src/static/js/runtime-main.449d6de2.js",
+    "runtime-main.js.map": "/cv/src/static/js/runtime-main.449d6de2.js.map",
+    "static/css/2.fcb1299f.chunk.css": "/cv/src/static/css/2.fcb1299f.chunk.css",
+    "static/js/2.8a101ea3.chunk.js": "/cv/src/static/js/2.8a101ea3.chunk.js",
+    "static/js/2.8a101ea3.chunk.js.map": "/cv/src/static/js/2.8a101ea3.chunk.js.map",
+    "index.html": "/cv/src/index.html",
+    "static/css/2.fcb1299f.chunk.css.map": "/cv/src/static/css/2.fcb1299f.chunk.css.map",
+    "static/js/2.8a101ea3.chunk.js.LICENSE.txt": "/cv/src/static/js/2.8a101ea3.chunk.js.LICENSE.txt",
+    "static/media/Lpage.eec96223.png": "/cv/src/static/media/Lpage.eec96223.png",
+    "static/media/me.728f2af1.png": "/cv/src/static/media/me.728f2af1.png",
+    "static/media/ombi.26f42b52.png": "/cv/src/static/media/ombi.26f42b52.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.449d6de2.js",
+    "static/css/2.fcb1299f.chunk.css",
+    "static/js/2.8a101ea3.chunk.js",
+    "static/js/main.0def39d0.chunk.js"
+  ]
+}
